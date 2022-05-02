@@ -10,33 +10,37 @@
       <header>
         <div class="flex flex-row mt-8">
           <div class="basis-3/4 nav text-zinc-500 text-sm">
-            <a
-              href="#"
+            <NuxtLink
+              to="/"
               class="pr-10 text-zinc-200 hover:text-zinc-100 ease-in duration-300 ease-in duration-300 text-3xl"
               ><i class="fa-solid fa-fill-drip"></i
-            ></a>
-            <a href="#" class="pr-8 hover:text-zinc-100 ease-in duration-300"
-              >About</a
+            ></NuxtLink>
+            <NuxtLink
+              to="/about"
+              class="pr-8 hover:text-zinc-100 ease-in duration-300"
+              >About</NuxtLink
             >
-            <a
-              href="#"
-              class="pr-8 pt-3 pb-3 hover:text-zinc-100 ease-in duration-300"
-              >Work</a
+            <NuxtLink
+              to="/work"
+              class="pr-8 hover:text-zinc-100 ease-in duration-300"
+              >Work</NuxtLink
             >
-            <a
-              href="#"
-              class="pr-8 pt-3 pb-3 hover:text-zinc-100 ease-in duration-300"
-              >Learn</a
+
+            <NuxtLink
+              to="/learn"
+              class="pr-8 hover:text-zinc-100 ease-in duration-300"
+              >Learn</NuxtLink
             >
-            <a
-              href="#"
-              class="pr-8 pt-3 pb-3 hover:text-zinc-100 ease-in duration-300"
-              >Playground</a
+
+            <NuxtLink
+              to="/playground"
+              class="pr-8 hover:text-zinc-100 ease-in duration-300"
+              >Playground</NuxtLink
             >
-            <a
-              href="#"
-              class="pr-8 pt-3 pb-3 hover:text-zinc-100 ease-in duration-300"
-              >Contact</a
+            <NuxtLink
+              to="/contact"
+              class="pr-8 hover:text-zinc-100 ease-in duration-300"
+              >Contact</NuxtLink
             >
           </div>
           <div class="basis-1/4 text-lg text-right mt-2">
