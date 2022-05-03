@@ -4,7 +4,13 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: "deeley.dev-nuxt",
+        __dangerouslyDisableSanitizers: ["script"],
+        title: "deeley.dev | modern web development and ui/ux design",
+        script: [{
+            hid: "fontawesome",
+            src: "https://kit.fontawesome.com/20fd5b4582.js",
+            defer: true,
+        }, ],
         htmlAttrs: {
             lang: "en",
         },
@@ -32,12 +38,7 @@ export default {
         "@nuxt/typescript-build",
         // https://go.nuxtjs.dev/tailwindcss
         "@nuxtjs/tailwindcss",
-        "@nuxtjs/fontawesome",
     ],
-
-    fontawesome: {
-        icons: [],
-    },
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [],

@@ -14,12 +14,12 @@
         </p>
         <p class="mt-10 buttons">
           <a
-            href="#"
+            href="/work"
             class="rounded-full font-medium bg-gradient-to-r from-indigo-500 to-blue-400 p-3 pl-6 pr-6 mr-2 tracking-wider"
             >View my work</a
           >
           <a
-            href="#"
+            href="/playground"
             class="rounded-full font-medium bg-gradient-to-b from-zinc-900 to-zinc-800 p-3 pl-6 pr-6 tracking-wider"
             >Visit playground</a
           >

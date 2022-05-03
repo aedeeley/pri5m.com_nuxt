@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Flow+Circular&family=Inter:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #090b0c;
+}
+
+.gradient-spectrum {
+    background-image: linear-gradient( 135deg, #0b6ec5, #5e49af, #f35815, #fed54a 100%);
+}
+
+.container.max-w-3xl {
+    max-width: 740px;
+}
+
+#stats i {
+    font-size: 35pt;
+}
+
+#stats span {
+    font-size: 10pt;
+}
+
+#services .flex-row div {
+    background: rgba(255, 255, 255, 0.02);
+    transition: all 400ms;
+}
+
+#services .flex-row div:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+#scrollwheel {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-color: dark !important;
+}
+
+
+/* width */
+
+#scrollwheel::-webkit-scrollbar {
+    height: 5px;
+}
+
+
+/* Track */
+
+#scrollwheel::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.01);
+}
+
+#scrollwheel:hover::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+
+/* Handle */
+
+#scrollwheel::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+
+/* Handle on hover */
+
+#scrollwheel:hover::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+#services p {
+    font-size: 10pt;
+    line-height: 1.6;
+    font-family: "Flow Circular", cursive;
+}
+
+header a.pr-10 {
+    vertical-align: middle;
+}
+
+#hero .buttons a {
+    font-size: 9.5pt;
+}
+
+#trusted i {
+    transition: all 400ms;
+}
+
+#newsletter .w-full {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#newsletter input {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#trusted img {
+    width: 90px;
+    height: auto;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+#trusted img:hover {
+    opacity: 0.7;
+}
+
+#case-study flex {
+    max-height: 300px;
+    overflow: hidden;
+}
