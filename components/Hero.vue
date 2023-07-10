@@ -21,7 +21,7 @@
         </h1>
         <p class="mb-4"></p>
         <p class="text-2xl font-light text-zinc-500 mt-10 mb-10">
-          We've been obsessed with fast, compliant and accessible websites and mobile applications since 2001. <a href="/contact" class="underline underline-offset-4 font-medium">Let's have a conversation</a> about a problem we can solve!
+          We've been obsessed with fast, compliant and accessible web &amp; mobile applications since 2001. <a href="/contact" class="underline underline-offset-4 font-medium">Let's talk</a> about a project you're excited about!
         </p>
         <p class="mt-10 buttons">
           <button
