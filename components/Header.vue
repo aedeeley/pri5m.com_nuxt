@@ -56,7 +56,7 @@
         </div>
     </div>
   </header>
-</div>
+  </div>
 </template>
 
 <style></style>
