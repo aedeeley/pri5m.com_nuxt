@@ -26,7 +26,7 @@ export default {
         event.preventDefault();
 
         element.scrollBy({
-          left: event.deltaX < 0 ? -60 : 60,
+          left: event.deltaY < 0 ? -60 : 60,
         });
       });
 

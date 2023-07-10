@@ -2,7 +2,6 @@
   <header>
     <TopBar />
     <div class="container max-w-5xl mx-auto pl-10 pr-10">
-      <header>
         <div class="flex flex-row mt-8 text-sm font-medium">
           <div class="basis-3/4 nav text-zinc-500">
             <NuxtLink
@@ -55,9 +54,9 @@
             ></a>
           </div>
         </div>
-      </header>
     </div>
   </header>
+</div>
 </template>
 
 <style></style>
