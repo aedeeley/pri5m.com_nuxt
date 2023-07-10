@@ -1,14 +1,14 @@
-export const CaseStudy = () => import('../../components/CaseStudy.vue' /* webpackChunkName: "components/case-study" */).then(c => wrapFunctional(c.default || c))
-export const Footer = () => import('../../components/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c))
-export const Header = () => import('../../components/Header.vue' /* webpackChunkName: "components/header" */).then(c => wrapFunctional(c.default || c))
-export const Hero = () => import('../../components/Hero.vue' /* webpackChunkName: "components/hero" */).then(c => wrapFunctional(c.default || c))
-export const Newsletter = () => import('../../components/Newsletter.vue' /* webpackChunkName: "components/newsletter" */).then(c => wrapFunctional(c.default || c))
-export const Playground = () => import('../../components/Playground.vue' /* webpackChunkName: "components/playground" */).then(c => wrapFunctional(c.default || c))
-export const Scripts = () => import('../../components/Scripts.vue' /* webpackChunkName: "components/scripts" */).then(c => wrapFunctional(c.default || c))
-export const Services = () => import('../../components/Services.vue' /* webpackChunkName: "components/services" */).then(c => wrapFunctional(c.default || c))
-export const TopBar = () => import('../../components/TopBar.vue' /* webpackChunkName: "components/top-bar" */).then(c => wrapFunctional(c.default || c))
-export const Trusted = () => import('../../components/Trusted.vue' /* webpackChunkName: "components/trusted" */).then(c => wrapFunctional(c.default || c))
-export const Tutorial = () => import('../../components/Tutorial.vue' /* webpackChunkName: "components/tutorial" */).then(c => wrapFunctional(c.default || c))
+export { default as CaseStudy } from '../../components/CaseStudy.vue'
+export { default as Footer } from '../../components/Footer.vue'
+export { default as Header } from '../../components/Header.vue'
+export { default as Hero } from '../../components/Hero.vue'
+export { default as Newsletter } from '../../components/Newsletter.vue'
+export { default as Playground } from '../../components/Playground.vue'
+export { default as Scripts } from '../../components/Scripts.vue'
+export { default as Services } from '../../components/Services.vue'
+export { default as TopBar } from '../../components/TopBar.vue'
+export { default as Trusted } from '../../components/Trusted.vue'
+export { default as Tutorial } from '../../components/Tutorial.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
