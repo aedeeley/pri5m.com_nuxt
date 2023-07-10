@@ -2,7 +2,7 @@
   <main>
     <Header />
     <div class="container max-w-5xl mx-auto pl-10 pr-10 py-10">
-      <h1 class="text-7xl font-semibold mb-1 leading-none"><span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 via-purple-600 to-orange-600">PLAYGR0UND</span></h1>
+      <h1 class="text-7xl font-semibold mb-1 leading-none"><span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 via-purple-600 to-orange-600">PLAYGROUND</span></h1>
       <Newsletter />
     </div>
     <Footer />

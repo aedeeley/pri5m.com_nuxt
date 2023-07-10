@@ -2,7 +2,7 @@
   <section id="blog ">
     <div class="flex flex-row pt-10 pb-10 text-zinc-200">
       <div class="basis text-zinc-200 w-full">
-        <h1 class="text-4xl font-bold mb-3">From the Blog</h1>
+        <h1 class="text-4xl font-semibold mb-3">From the <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 via-purple-600 to-orange-600">Playground</span></h1>
         <p class="mb-8 text-zinc-500">
           Learn to build &amp; deploy modern web applications to help build a
           faster, more efficient internet.
@@ -10,7 +10,7 @@
 
         <table class="table-auto w-full">
           <tbody>
-            <tr class="border-b-2 border-b-slate-900">
+            <tr class="border-b-2 border-b-gray-900">
               <td class="pt-3 pb-3 text-zinc-600">01</td>
               <td class="pt-3 pb-3 font-semibold">
                 <a href="# " class="hover:underline"
@@ -24,7 +24,7 @@
                 ></i>
               </td>
             </tr>
-            <tr class="border-b-2 border-b-slate-900">
+            <tr class="border-b-2 border-b-gray-900">
               <td class="pt-3 pb-3 text-zinc-600">02</td>
               <td class="pt-3 pb-3 font-semibold">
                 <a href="# " class="hover:underline"
@@ -38,7 +38,7 @@
                 ></i>
               </td>
             </tr>
-            <tr class="border-b-2 border-b-slate-900">
+            <tr class="border-b-2 border-b-gray-900">
               <td class="pt-3 pb-3 text-zinc-600">03</td>
               <td class="pt-3 pb-3 font-semibold">
                 <a href="# " class="hover:underline"
@@ -53,7 +53,7 @@
               </td>
             </tr>
 
-            <tr class="border-b-2 border-b-slate-900">
+            <tr class="border-b-2 border-b-gray-900">
               <td class="pt-3 pb-3 text-zinc-600">04</td>
               <td class="pt-3 pb-3 font-semibold">
                 <a href="# " class="hover:underline"
@@ -67,7 +67,7 @@
                 ></i>
               </td>
             </tr>
-            <tr class="border-b-2 border-b-slate-900">
+            <tr class="border-b-2 border-b-gray-900">
               <td class="pt-3 pb-3 text-zinc-600">05</td>
               <td class="pt-3 pb-3 font-semibold">
                 <a href="# " class="hover:underline"

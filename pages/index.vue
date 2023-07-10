@@ -9,7 +9,7 @@
       <hr class="mt-20 mb-20 border-4 border-zinc-900" />
 
       <CaseStudy />
-      <HomeBlog />
+      <Playground />
       <Newsletter />
     </div>
     <Footer />
