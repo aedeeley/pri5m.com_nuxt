@@ -27,4 +27,21 @@
   </section>
 </template>
 
-<style></style>
+<style>
+
+#trusted i {
+    transition: all 400ms;
+}
+
+#trusted img {
+    width: 90px;
+    height: auto;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+#trusted img:hover {
+    opacity: 0.7;
+}
+
+</style>

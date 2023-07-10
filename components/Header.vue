@@ -56,7 +56,39 @@
         </div>
     </div>
   </header>
-  </div>
 </template>
 
-<style></style>
+<style>
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@200,500,300,600,401,501,400,700&f[]=satoshi@900,700,500,300,501,401,400&display=swap");
+
+* {
+    font-family: 'Satoshi', sans-serif !important;
+}
+
+h1,h2,h3,h4, h1 a, h2 a, h3 a, h4 a {
+    font-family: 'General Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight:700 !important;
+    text-transform:capitalize;
+}
+
+
+body {
+    background-color: #090b0c;
+}
+
+
+
+header a.pr-10 {
+    vertical-align: middle;
+}
+
+
+
+.pri5m-logo {
+    max-width:40px;
+    height:auto;
+}
+</style>

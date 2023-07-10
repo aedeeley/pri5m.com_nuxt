@@ -78,7 +78,9 @@
       <div class="flex-none w-56 text-zinc-200 rounded-lg p-8">
         <i class="fa-brands fa-php text-6xl text-violet-400 mb-5"></i>
         <h3 class="text-xl font-semibold mb-1">PHP</h3>
-        <p class="text-xs text-zinc-700 animate-pulse">Class aptent taciti sociosqu ad</p>
+        <p class="text-xs text-zinc-700 animate-pulse">
+          Class aptent taciti sociosqu ad
+        </p>
       </div>
       <div class="flex-none w-56 text-zinc-200 rounded-lg p-8">
         <i class="fa-brands fa-git-alt text-6xl text-orange-600 mb-5"></i>
@@ -140,4 +142,53 @@
   </section>
 </template>
 
-<style></style>
+<style>
+#services .flex-row div {
+  background: rgba(255, 255, 255, 0.02);
+  transition: all 400ms;
+}
+
+#services .flex-row div:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+#scrollwheel {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-color: dark !important;
+}
+
+/* width */
+
+#scrollwheel::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Track */
+
+#scrollwheel::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.01);
+}
+
+#scrollwheel:hover::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+/* Handle */
+
+#scrollwheel::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+/* Handle on hover */
+
+#scrollwheel:hover::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+#services p {
+  font-size: 10pt;
+  line-height: 1.6;
+  font-family: "Flow Circular", cursive;
+}
+</style>

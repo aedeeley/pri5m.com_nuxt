@@ -76,4 +76,15 @@
   </div>
 </template>
 
-<style></style>
+<style>
+#mc-embedded-subscribe-form .w-full {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 6px;
+}
+
+#mc-embedded-subscribe-form input {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+</style>

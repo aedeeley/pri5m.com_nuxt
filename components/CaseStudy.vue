@@ -31,4 +31,9 @@
   </section>
 </template>
 
-<style></style>
+<style>
+#case-study flex {
+  max-height: 300px;
+  overflow: hidden;
+}
+</style>
