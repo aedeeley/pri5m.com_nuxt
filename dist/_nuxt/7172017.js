@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{266:function(t,n,e){"use strict";e.r(n);var c=e(43),component=Object(c.a)({},(function(){return(0,this._self._c)("div",{staticClass:"gradient-spectrum pt-1 pb-0 tracking-wider container fixed top-0 z-50"})}),[],!1,null,null,null);n.default=component.exports}}]);
