@@ -15,7 +15,7 @@ function init() {
     window.addEventListener("load", () => {
         self.setInterval(() => {
             if (scrollWheel.scrollLeft !== flavoursScrollWidth) {
-                scrollWheel.scrollTo(scrollWheel.scrollLeft + 1, 0);
+                scrollWheel.scrollTo(scrollWheel.scrollLeft += 20, 0);
             }
         }, 40);
     });

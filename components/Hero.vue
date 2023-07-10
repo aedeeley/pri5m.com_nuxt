@@ -1,37 +1,25 @@
 <template>
   <section id="hero">
     <div class="flex flex-row pt-20 pb-20">
-      <div class="basis-8/12 text-zinc-200">
-        <h1 class="text-5xl font-semibold mb-1">Alex Deeley</h1>
+      <div class="text-zinc-200">
+        <h1 class="text-8xl font-semibold mb-1 leading-none"><span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 via-purple-600 to-orange-600">PRISM</span> creates <span class="font-bold underline decoration-green-600 decoration-wavy decoration-4 underline-offset-8">robust</span> &amp <span class="font-bold underline decoration-violet-600 decoration-wavy decoration-4 underline-offset-8">effective</span> web applications</h1>
         <p class="mb-4">
-          Full-Stack Developer at
-          <span class="font-semibold">Digital Panda</span>
+          
         </p>
-        <p class="text-zinc-500">
-          Obsessed with fast, compliant and reactive website &amp; app
-          development since 2001. Also produces <a href="#">music</a> and
-          <a href="#">artworks</a>.
+        <p class="text-2xl font-light text-zinc-500 mt-10 mb-10">
+          We've been obsessed with fast, compliant and accessible websites, apps and mobile experiences since 2001.
         </p>
         <p class="mt-10 buttons">
-          <a
+          <button
             href="/work"
-            class="rounded-full font-medium bg-gradient-to-r from-indigo-500 to-blue-400 p-3 pl-6 pr-6 mr-2 tracking-wider"
-            >View my work</a
+            class="px-5 py-3 font-semibold text-base bg-gradient-to-b from-purple-600/75 to-sky-600/75 hover:from-purple-600 hover:to-sky-600 text-white rounded-full shadow-sm mr-3 duration-500"
+            >View my work</button
           >
-          <a
+          <button
             href="/playground"
-            class="rounded-full font-medium bg-gradient-to-b from-zinc-900 to-zinc-800 p-3 pl-6 pr-6 tracking-wider"
-            >Visit playground</a
-          >
+            class="px-5 py-3 font-semibold text-base bg-gradient-to-b from-zinc-900/75 to-zinc-800/75 hover:from-zinc-900 hover:to-zinc-800 text-white rounded-full shadow-sm duration-500"
+            >Visit playground</button>
         </p>
-      </div>
-      <div class="basis-1/12">&nbsp;</div>
-      <div class="basis-3/12">
-        <img
-          class="float-right mt-7"
-          src="~assets/img/avatar.png"
-          alt="It 's me, Alex Deeley"
-        />
       </div>
     </div>
   </section>

@@ -1,7 +1,7 @@
 <template>
   <main>
     <Header />
-    <div class="container max-w-3xl mx-auto pl-10 pr-10">
+    <div class="container max-w-5xl mx-auto pl-10 pr-10">
       <Hero />
       <Services />
       <Trusted />
@@ -26,7 +26,7 @@ export default {
         event.preventDefault();
 
         element.scrollBy({
-          left: event.deltaY < 0 ? -60 : 60,
+          left: event.deltaX < 0 ? -60 : 60,
         });
       });
 
