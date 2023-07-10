@@ -7,7 +7,7 @@
             class="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 via-purple-600 to-orange-600"
             >PRISM</span
           >
-          constructs
+          forges
           <span
             class="font-bold underline decoration-green-600 decoration-wavy decoration-4 underline-offset-8"
             >robust</span
