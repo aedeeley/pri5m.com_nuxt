@@ -5,7 +5,7 @@ export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
         __dangerouslyDisableSanitizers: ["script"],
-        title: "deeley.dev | modern web development and ui/ux design",
+        title: "PRI5M.com | We've been forging robust & effective web experiences since 2001.",
         script: [{
             hid: "fontawesome",
             src: "https://kit.fontawesome.com/20fd5b4582.js",
