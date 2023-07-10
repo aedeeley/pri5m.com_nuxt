@@ -28,13 +28,13 @@
             href="/work"
             class="px-5 py-3 font-semibold text-base bg-gradient-to-b from-purple-600/75 to-sky-600/75 hover:from-purple-600 hover:to-sky-600 text-white rounded-full shadow-sm mr-3 duration-500"
           >
-            View my work
+            View our work
           </button>
           <button
             href="/playground"
             class="px-5 py-3 font-semibold text-base bg-gradient-to-b from-zinc-900/75 to-zinc-800/75 hover:from-zinc-900 hover:to-zinc-800 text-white rounded-full shadow-sm duration-500"
           >
-            Visit playground
+            Visit our playground
           </button>
         </p>
       </div>
