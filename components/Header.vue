@@ -2,7 +2,7 @@
   <header>
     <TopBar />
     <div class="container max-w-5xl mx-auto pl-10 pr-10">
-      <div class="flex flex-row mt-8 text-sm font-medium">
+      <div class="flex flex-row mt-8 text-base font-medium">
         <div class="basis-3/4 nav text-zinc-500">
           <NuxtLink
             to="/"
@@ -46,7 +46,8 @@
           <a
             href="#"
             class="pl-3 text-blue-600/75 hover:text-blue-600 duration-300"
-            ><i class="fa-brands fa-facebook"></i></a>
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
         </div>
       </div>
     </div>
@@ -57,7 +58,7 @@
 @import url("https://api.fontshare.com/v2/css?f[]=general-sans@200,500,300,600,401,501,400,700&f[]=satoshi@900,700,500,300,501,401,400&display=swap");
 
 * {
-  font-family: "Satoshi", sans-serif !important;
+  font-family: "Satoshi", sans-serif;
 }
 
 h1,
@@ -74,7 +75,7 @@ h4 a {
 h1,
 h2,
 h3 {
-  font-weight: 900 !important;
+  font-weight: 700;
   text-transform: capitalize;
 }
 

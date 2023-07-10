@@ -3,42 +3,36 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/alexdeeley/Projects/deeley.dev-nuxt/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_1af5b318"
+    "chunkName": "pages/about"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "/Users/alexdeeley/Projects/deeley.dev-nuxt/pages/contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_36d2216b"
+    "chunkName": "pages/contact"
   },
   {
     "name": "playground",
     "path": "/playground",
     "component": "/Users/alexdeeley/Projects/deeley.dev-nuxt/pages/playground.vue",
-    "chunkName": "pages/playground",
-    "_name": "_80656180"
+    "chunkName": "pages/playground"
   },
   {
     "name": "services",
     "path": "/services",
     "component": "/Users/alexdeeley/Projects/deeley.dev-nuxt/pages/services.vue",
-    "chunkName": "pages/services",
-    "_name": "_70685fa3"
+    "chunkName": "pages/services"
   },
   {
     "name": "work",
     "path": "/work",
     "component": "/Users/alexdeeley/Projects/deeley.dev-nuxt/pages/work.vue",
-    "chunkName": "pages/work",
-    "_name": "_267d6356"
+    "chunkName": "pages/work"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/alexdeeley/Projects/deeley.dev-nuxt/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_3aad8ddd"
+    "chunkName": "pages/index"
   }
 ]
