@@ -1,6 +1,6 @@
 <template>
   <div
-    class="gradient-spectrum pt-1 pb-0 tracking-wider container fixed top-0 z-50 w-screen"
+    class="gradient-spectrum pt-1 pb-0 fixed top-0 z-50 w-screen"
   >
   </div>
 </template>
