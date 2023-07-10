@@ -1,0 +1,44 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/alexdeeley/Projects/deeley.dev-nuxt/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_1af5b318"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/alexdeeley/Projects/deeley.dev-nuxt/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_36d2216b"
+  },
+  {
+    "name": "playground",
+    "path": "/playground",
+    "component": "/Users/alexdeeley/Projects/deeley.dev-nuxt/pages/playground.vue",
+    "chunkName": "pages/playground",
+    "_name": "_80656180"
+  },
+  {
+    "name": "services",
+    "path": "/services",
+    "component": "/Users/alexdeeley/Projects/deeley.dev-nuxt/pages/services.vue",
+    "chunkName": "pages/services",
+    "_name": "_70685fa3"
+  },
+  {
+    "name": "work",
+    "path": "/work",
+    "component": "/Users/alexdeeley/Projects/deeley.dev-nuxt/pages/work.vue",
+    "chunkName": "pages/work",
+    "_name": "_267d6356"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/alexdeeley/Projects/deeley.dev-nuxt/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_3aad8ddd"
+  }
+]

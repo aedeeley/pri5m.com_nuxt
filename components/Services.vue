@@ -143,6 +143,8 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+
 #services .flex-row div {
   background: rgba(255, 255, 255, 0.02);
   transition: all 400ms;
@@ -189,6 +191,6 @@
 #services p {
   font-size: 10pt;
   line-height: 1.6;
-  font-family: "Flow Circular", cursive;
+  font-family: "Flow Circular", cursive !important;
 }
 </style>

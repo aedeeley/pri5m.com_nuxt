@@ -1,5 +1,5 @@
 <template>
-  <foot>
+  <footer>
     <div class="container max-w-5xl mx-auto pl-10 pr-10">
       <footer class="mt-10 flex pb-10">
         <div class="basis-3/4 text-zinc-500 text-sm">
@@ -24,7 +24,7 @@
         </div>
       </footer>
     </div>
-  </foot>
+  </footer>
 </template>
 
 <style></style>

@@ -8,7 +8,7 @@ export default {
         title: "PRI5M.com | We've been forging robust & effective web experiences since 2001.",
         script: [{
             hid: "fontawesome",
-            src: "https://kit.fontawesome.com/20fd5b4582.js",
+            src: "https://kit.fontawesome.com/6e0fdab091.js",
             defer: true,
         }, ],
         htmlAttrs: {
